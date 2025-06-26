@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/background_card"
+        android:padding="24dp"
+        android:layout_marginHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/welcome"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/primaryColor"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_description"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="24dp"
+            android:layout_marginHorizontal="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <Button
+                android:id="@+id/btn_language_en"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button_primary_dark"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="@string/language_en"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_language_tr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button_primary_dark"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="@string/language_tr"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/rounded_button_dashboard"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:text="@string/dashboard"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/rounded_button_water"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:text="@string/water_tracking"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/rounded_button_exercise"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:text="@string/exercise_tracking"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_nutrition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/rounded_button_nutrition"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:text="@string/nutrition"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_personal_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/rounded_button_personal_health"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:text="@string/personal_health"
+            android:textColor="@color/textPrimaryDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button_red"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:text="@string/signout"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/primaryColor"
+        android:weightSum="6"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bottom_btn_dashboard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dashboard"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bottom_btn_water"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/water_tracking"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bottom_btn_exercise"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/exercise_tracking"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bottom_btn_nutrition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/nutrition"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bottom_btn_personal_health"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/personal_health"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bottom_btn_signout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/signout"
+            android:textColor="@android:color/white"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

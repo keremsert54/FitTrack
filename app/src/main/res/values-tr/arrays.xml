@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercise_types">
+        <item>Koşu</item>
+        <item>Ağırlık Kaldırma</item>
+        <item>Yoga</item>
+        <item>Bisiklet</item>
+        <item>Yüzme</item>
+        <item>Zıplama</item>
+        <item>Şınav</item>
+    </string-array>
+</resources>

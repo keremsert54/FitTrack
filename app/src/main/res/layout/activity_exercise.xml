@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_tracking"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_exercise"
+            android:textSize="18sp"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <Spinner
+            android:id="@+id/exercise_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/duration_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_duration"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/editbox_background_normal" />
+
+        <Button
+            android:id="@+id/add_exercise_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/add_exercise"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:elevation="4dp" />
+
+
+        <Button
+            android:id="@+id/add_custom_exercise_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/add_custom_exercise"
+            android:backgroundTint="#00BCD4"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp" />
+
+        <EditText
+            android:id="@+id/custom_exercise_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_custom_exercise"
+            android:inputType="text"
+            android:visibility="gone"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/editbox_background_normal" />
+
+        <EditText
+            android:id="@+id/calories_per_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_calories_per"
+            android:inputType="number"
+            android:visibility="gone"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/editbox_background_normal" />
+
+        <Button
+            android:id="@+id/save_custom_exercise_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/save"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:layout_marginBottom="24dp"
+            android:elevation="4dp" />
+
+        <TextView
+            android:id="@+id/total_duration_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_duration"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/calories_burned_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calories_burned"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/view_exercises_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/view_exercises"
+            android:backgroundTint="#00BCD4"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp" />
+
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/back_to_menu"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:elevation="2dp" />
+    </LinearLayout>
+</ScrollView>

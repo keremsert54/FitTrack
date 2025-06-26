@@ -1,0 +1,126 @@
+<resources>
+    <string name="welcome">Hoş Geldiniz!</string>
+    <string name="signout">🚪 Çıkış Yap</string>
+    <string name="name_hint">Ad</string>
+    <string name="forgot_password">Şifremi Unuttum?</string>
+    <string name="login">Giriş Yap</string>
+    <string name="signup">Kayıt Ol</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="switch_to_signup">Kayıt Ol’a Git</string>
+    <string name="switch_to_login">Giriş Yap’a Git</string>
+    <string name="app_name">🏋️‍♂️ FitTrack</string>
+    <string name="app_description">FitTrack, sağlıklı yaşamınızı takip etmenize yardımcı olur. Egzersiz, su tüketimi ve beslenme gibi önemli alanlarda size yardımcı olur.</string>
+    <string name="dashboard">📊 Kontrol Paneli</string>
+    <string name="water_tracking">💧 Su Takibi</string>
+    <string name="exercise_tracking">🏃‍♂️ Egzersiz Takibi</string>
+    <string name="nutrition">🍎 Beslenme</string>
+    <string name="personal_health">🧬 Kişisel Sağlık</string>
+    <string name="language_selection">Dil Seçimi</string>
+    <string name="exercises">Egzersizler</string>
+    <string name="progress">İlerleme</string>
+    <string name="prompt_exercise">Egzersiz Seç</string>
+    <string name="settings">Ayarlar</string>
+    <string name="reset_hydration">Hidrasyonu Sıfırla</string>
+    <string name="reset_exercise">Egzersizi Sıfırla</string>
+    <string name="reset_nutrition">Beslenmeyi Sıfırla</string>
+    <string name="reset_all">Tümünü Sıfırla</string>
+    <string name="hydration_reset">Hidrasyon başarıyla sıfırlandı!</string>
+    <string name="exercise_reset">Egzersiz başarıyla sıfırlandı!</string>
+    <string name="nutrition_reset">Beslenme başarıyla sıfırlandı!</string>
+    <string name="all_reset">Tüm veriler başarıyla sıfırlandı!</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="water_goal">Su Hedefi (ml)</string>
+    <string name="set_daily_calorie_goal">Günlük Kalori Hedefi (kcal)</string>
+    <string name="goals_updated">Hedefler güncellendi!</string>
+    <string name="invalid_input">Geçersiz giriş!</string>
+    <string name="confirm_hydration_reset">Hidrasyonu sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="confirm_exercise_reset">Egzersizi sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="confirm_nutrition_reset">Beslenmeyi sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="confirm_all_reset">Tümünü sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    <!-- Common Strings -->
+    <string name="back_to_menu">Menüye Geri Dön</string>
+
+    <!-- DashboardActivity -->
+    <string name="todays_progress">Bugünün İlerlemesi</string>
+    <string name="hydration">Hidrasyon</string>
+    <string name="exercise">Egzersiz</string>
+    <string name="quick_actions">Hızlı İşlemler</string>
+    <string name="start_workout">Antrenmana Başla</string>
+    <string name="good_day_message">Hoş Geldin! Bugün %s</string>
+    <string name="water_added_250ml">+250ml su eklendi! 💪</string>
+    <string name="water_summary">💧 %d / %d ml (%d%%)\n%s</string>
+    <string name="exercise_summary">🏃‍♂️ Bugün %d dakika\n🔥 %d kalori yakıldı\n(%d%%)\n%s</string>
+    <string name="nutrition_summary">🍎 %d / %d kalori (%d%%)\n%s</string>
+    <string name="excellent_status">🌟 Mükemmel!</string>
+    <string name="good_status">✅ İyi</string>
+    <string name="moderate_status">⚠️ Orta</string>
+    <string name="needs_attention_status">🔸 Dikkat Gerektiriyor</string>
+    <string name="dashboard_loaded">📊 Gösterge Paneli yüklendi!</string>
+    <string name="new_day_started">🌅 Yeni gün başladı! Veriler yenilendi.</string>
+    <string name="excess_status">🔸 Aşırı!</string>
+    <string name="reset_options">Sıfırlama Seçenekleri</string>
+
+
+    <string name="total_duration">Toplam Süre: %d dk</string>
+    <string name="enter_duration">Süre Gir (dk)</string>
+    <string name="add_exercise">Egzersiz Ekle</string>
+    <string name="calories_burned">Yakılan Kaloriler: %d kcal</string>
+    <string name="view_history">Geçmişi Görüntüle</string>
+    <string name="exercise_history">Egzersiz Geçmişi</string>
+    <string name="exercise_added">Egzersiz eklendi!</string>
+    <string name="add_custom_exercise">Özel Egzersiz Ekle</string>
+    <string name="enter_custom_exercise">Özel Egzersiz Gir</string>
+    <string name="enter_calories_per">Dakikadaki Kalorileri Gir</string>
+    <string name="view_exercises">Egzersizleri Görüntüle</string>
+    <string name="remaining">Kalan</string>
+    <string name="ml">ml</string>
+    <string name="min">dak</string>
+    <string name="kcal">kcal</string>
+
+    <string name="total_calories">Toplam Kalori: %d kcal</string>
+    <string name="enter_food_name">Yiyecek Adını Gir</string>
+    <string name="enter_calories">Kalori Gir</string>
+    <string name="add_food">Yiyecek Ekle</string>
+    <string name="enter_protein">Protein (g)</string>
+    <string name="enter_carbs">Karbonhidrat (g)</string>
+    <string name="enter_fat">Yağ (g)</string>
+    <string name="set_goal">Hedef Ayarla</string>
+    <string name="food_added">Yiyecek eklendi! %d kalori</string>
+    <string name="enter_sugar">Şeker (g)</string>
+
+
+    <string name="total_water">Toplam: %d ml</string>
+    <string name="enter_water">Su Gir (ml)</string>
+    <string name="add_water">Su Ekle</string>
+    <string name="set_daily_goal">Günlük Su Hedefi (ml)</string>
+    <string name="add_water_250ml">+250ml Su Ekle</string>
+
+    <string name="height">Boy (cm)</string>
+    <string name="weight">Kilo (kg)</string>
+    <string name="age">Yaş</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="calculate">Hesapla</string>
+    <string name="daily_water">Günlük Su: %d ml</string>
+    <string name="daily_calories">Günlük Kalori: %d kcal</string>
+    <string name="exercise_suggestion">Egzersiz Önerisi: %s</string>
+    <string name="bmi">BMI: %.1f</string>
+    <string name="fill_all_fields">Lütfen tüm alanları doldurun</string>
+    <string name="enter_valid_numbers">Lütfen geçerli sayılar girin</string>
+    <string name="select_gender">Lütfen cinsiyet seçin!</string>
+
+
+    <string name="language_en">🇺🇸 EN</string>
+    <string name="language_tr">🇹🇷 TR</string>
+    <string name="enter_email">Lütfen e-posta adresinizi girin</string>
+    <string name="invalid_email">Geçersiz e-posta adresi</string>
+    <string name="reset_link_sent">Sıfırlama bağlantısı e-postanıza gönderildi!</string>
+    <string name="reset_link_failed">Sıfırlama bağlantısı gönderilemedi: %s</string>
+    <string name="no_user_found">Bu e-posta ile kayıtlı bir hesap bulunamadı. Lütfen önce kayıt olun.</string>
+</resources>

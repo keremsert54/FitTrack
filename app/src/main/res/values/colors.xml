@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing colors -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="accent">#FF4081</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="red">#F44336</color>
+    <color name="purple">#9C27B0</color>
+
+    <!-- Missing theme colors -->
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="primaryColor">#1976D2</color>         <!-- Koyu Mavi -->
+    <color name="primaryDarkColor">#0D47A1</color>     <!-- Daha koyu mavi -->
+    <color name="textPrimaryDark">#212121</color>      <!-- Yazı rengi -->
+    <color name="buttonDashboard">#BBDEFB</color>      <!-- Açık mavi -->
+    <color name="buttonWater">#B2EBF2</color>          <!-- Su rengi -->
+    <color name="buttonExercise">#DCEDC8</color>       <!-- Açık yeşil -->
+    <color name="buttonNutrition">#FFCCBC</color>      <!-- Açık turuncu -->
+    <color name="buttonPersonalHealth">#D1C4E9</color>  <!-- Açık mor -->
+    </resources>
